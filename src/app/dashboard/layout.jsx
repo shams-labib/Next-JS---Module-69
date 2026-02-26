@@ -7,9 +7,24 @@ const Dashboard = ({ children }) => {
       <div className="col-span-3 border-r-2 border-gray-200">
         <h1 className="text-2xl font-bold">Navigation</h1>
         <div className="flex flex-col gap-5 mt-10">
-          <Link href={"/add-story"}>Add Story</Link>
-          <Link href={"/my-profile"}>My Profile</Link>
-          <Link href={"/settings"}>Settings</Link>
+          <Link
+            className="py-2 px-4 bg-gray-600 w-full"
+            href={"/dashboard/add-story"}
+          >
+            Add Story
+          </Link>
+          <Link
+            className="py-2 px-4 bg-gray-600 w-full"
+            href={"/dashboard/my-profile"}
+          >
+            My Profile
+          </Link>
+          <Link
+            className="py-2 px-4 bg-gray-600 w-full"
+            href={"/dashboard/settings"}
+          >
+            Settings
+          </Link>
         </div>
       </div>
       <div className="col-span-9">{children}</div>
