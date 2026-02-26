@@ -3,9 +3,11 @@ import React from "react";
 
 const Dashboard = ({ children }) => {
   return (
-    <div className="grid grid-cols-12 gap-5 min-h-screen">
+    <div className="grid grid-cols-12 gap-5 min-h-screen my-10">
       <div className="col-span-3 border-r-2 border-gray-200">
-        <h1 className="text-2xl font-bold">Navigation</h1>
+        <Link href={"/"} className="text-2xl font-bold ">
+          🔥Dev Story
+        </Link>
         <div className="flex flex-col gap-5 mt-10">
           <Link
             className="py-2 px-4 bg-gray-600 w-full"
