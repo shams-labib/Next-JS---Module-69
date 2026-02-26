@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Headers = () => {
+const  Headers = () => {
   return (
     <header className="py-4 px-5 border-b-2 border-gray-200 flex justify-between items-center ">
       <Link href={"/"} className="text-2xl font-bold">
