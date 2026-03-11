@@ -77,7 +77,6 @@ const StoryDetailsPage = async ({ params }) => {
 
   return (
     <div className="max-w-3xl mx-auto my-10 shadow-md rounded-lg p-6 border border-gray-200">
-      {/* Top Section */}
       <div className="flex items-center gap-5">
         <img
           src={story.image}
